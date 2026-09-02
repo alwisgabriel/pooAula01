@@ -10,7 +10,9 @@ public class Main {
 
        cliente1.conta = conta1;
 
-       conta1.depositar();
+       conta1.depositar(100.0);
+       conta1.sacar(1000.0);
+        System.out.println(conta1.saldo);
 
     }
 }
